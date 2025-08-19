@@ -1,0 +1,20 @@
+{
+    "name": "filtering/app",
+    "description": "Filtering application with PSR-4 autoloading",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Filters\\": "Filters/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
